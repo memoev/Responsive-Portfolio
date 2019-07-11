@@ -1,0 +1,228 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: black;
+    background-image: url(../images/subtle_grunge/subtle_grunge_@2X.png);
+}
+
+/*navigation styling*/
+#upperContainer {
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    height: 75px;
+    background-color: #ffffff;
+    border-bottom: 2px solid;
+    border-color: #cccccc;
+    margin: 0;
+    padding: 0;
+    top: 0px;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+
+}
+
+#wrapper {
+    height: 75px;
+    margin: 0 auto;
+    width: 960px;
+    /*background: yellow;*/
+}
+
+#myName {
+    position: absolute;
+    width: 220px;
+    height: 75px;
+    background: #4aaaa5;  
+    font-weight: bold;
+    font-size: x-large;
+    color: #ffffff;
+    margin: 0 auto; 
+}
+
+#myNameContainer {
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#otherPages {
+    float: right;
+    margin-left: auto;
+    margin-right: 0;
+    text-align: center;
+}
+
+/*Links styling*/
+a {
+    text-decoration: none;
+    color: #777777;
+}
+
+/*Separation line for links styling*/
+.littleLine {
+    border-right: 1px solid;
+    border-color: #cccccc;
+    padding-right: 15px;
+    padding-left: 10px;
+}
+
+.topRight {
+    float: left;
+    position: relative;
+    /*background: purple;*/
+    width: 75px;
+    height: 75px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: small;
+    line-height: 75px;
+}
+
+#Contact {
+    /*background: #000000;*/
+    padding-right: 0px;
+}
+
+/*Content styling*/
+#bodyparent {
+    clear: both;
+    width: 910px;
+    background: #ffffff;
+    padding: 30px;
+    overflow: auto;
+    margin: 0 auto 0 auto;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+#aboutMeContainer {
+    position: absolute;
+    /* background: orange; */
+    width: 910px;
+    border-bottom: 2px solid;
+    border-color: #cccccc;
+    height: 65px;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+}
+
+#nextToImage {
+    position: relative;
+    margin-top: 70px;
+}
+
+#myImage {
+    float: left;
+    width: 200px;
+    height: 200px;
+    clear: both;
+    margin-right: 20px;
+}
+
+p {
+    color: #777777;
+    margin-left: 0px;
+    display: block;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/*Input form styling*/
+#form {
+    position: relative;
+    margin-top: 70px;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 26px;
+}
+
+input {
+    width: 910px;
+    height: 24px;
+    margin-bottom: 20px;
+}
+
+textarea.mssg {
+    height: 160px;
+    width: 910px;
+    margin-bottom: 20px;
+}
+
+input.submit {
+    width: 100px;
+    background: #4aaaa5;
+    color: #ffffff;
+    font-size: 14px;
+    height: 40px;
+    border: none;
+    margin-bottom: 0px;
+}
+
+#projectsContainer {
+    position: relative;
+    margin-top: 70px;
+}
+
+.imgContainer {
+    width: 200px;
+    height: 200px;
+}
+
+.imgtext {
+    position: relative;
+    display: inline-block;
+    margin-right: 90px;
+    margin-bottom: 40px;
+}
+
+a.portImg:hover {
+    opacity: 0.6;
+    font-weight: bolder;
+}
+
+.imgtext .textContainer {
+    position: absolute;
+    z-index: 98;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: 10%;
+    text-align: center;
+    width: 100%;
+    background: #4aaaa5;
+    height: 40px;
+    line-height: 40px;
+    color: #ffffff;
+}
+
+.textContainer {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/*Footer sticked to the bottom styling*/
+#copyrightContainer {
+    clear: both;
+    background: #666666;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 50px;
+    width: 100%;
+    border-top: 8px solid;
+    border-color: #4aaaa5;
+    overflow: auto;
+    z-index: 99;
+}
+
+#copyright {
+    color: #ffffff;
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 75px;
+}
+
