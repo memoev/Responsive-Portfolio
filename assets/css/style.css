@@ -226,6 +226,9 @@ a.portImg:hover {
     line-height: 75px;
 }
 
+/* MEDIA QUERYS */
+
+/* Media query 980px */
 @media screen and (max-width: 980px) {
     #wrapper {
         width: 750px;
@@ -270,6 +273,7 @@ a.portImg:hover {
     }
 }
 
+/* Media query 768px */
 @media screen and (max-width: 768px) {
     #wrapper {
         width: 640px;
@@ -308,6 +312,7 @@ a.portImg:hover {
     }
 }
 
+/* Media query 640px */
 @media screen and (max-width: 640px) {
     #wrapper {
         width: 100%;
